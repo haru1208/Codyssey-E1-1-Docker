@@ -1,4 +1,4 @@
-
+﻿
 # Codyssey E1-1 — Docker Desktop 개인 복습
 
 ## 1. 프로젝트 소개
@@ -149,12 +149,4 @@ ssh -T git@github.com
 이번 개인 복습을 통해 Docker Desktop 설치부터 이미지, 컨테이너, 포트 매핑, 바인드 마운트, 볼륨, Compose 및 SSH 인증까지 실제 Windows 환경에서 확인했습니다.
 
 기존 LabEx 실습에서 확인하지 못했던 localhost:8000 브라우저 접속도 성공했습니다.
-'@ | Set-Content -Encoding UTF8 .\README.md
 
-git add README.md Dockerfile compose.yaml site screenshots
-
-git status
-
-git commit -m "Complete Docker Desktop review and bonus exercises"
-
-git push origin main
