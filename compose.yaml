@@ -1,0 +1,11 @@
+﻿services:
+  web:
+    build: .
+    ports:
+      - "8002:80"
+
+  helper:
+    image: busybox:1.37
+    command: ["sleep", "3600"]
+    environment:
+      APP_MODE: "${APP_MODE:-dev}"
